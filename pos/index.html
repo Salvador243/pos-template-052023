@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>POS</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-8 background-1">
+                <!-- Buscador -->
+                <div class="d-flex row-flex">
+                    <button class="btn btn-search ms-20">
+                        <span class="material-icons">
+                            menu
+                        </span>
+                    </button>
+                    <input type="text" id="i-search" class="form-control input-search ms-20"
+                        placeholder="Ingrese el producto">
+                    <button class="btn btn-search ">Buscar</button>
+                </div>
+                <!-- categorias -->
+                <div class="d-flex pt-40" style="overflow-x: auto;">
+                    <button type="button" class="btn btn-search ms-20 dropdown-toggle" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Abarrotes
+                    </button>
+                    <ul class="dropdown-menu" style="max-height: none; overflow-y: visible;">
+                        <li><a class="dropdown-item" href="#">Detergentes</a></li>
+                        <li><a class="dropdown-item" href="#">Endulzantes</a></li>
+                        <li><a class="dropdown-item" href="#">Cafes</a></li>
+                        <li><a class="dropdown-item" href="#">Licores</a></li>
+                    </ul>
+                    <button type="button" class="btn btn-search ms-20 dropdown-toggle" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Enlatados
+                    </button>
+                    <ul class="dropdown-menu" style="max-height: none; overflow-y: visible;">
+                        <li><a class="dropdown-item" href="#">Sopas</a></li>
+                        <li><a class="dropdown-item" href="#">Vegetales</a></li>
+                        <li><a class="dropdown-item" href="#">Lacteos</a></li>
+                        <li><a class="dropdown-item" href="#">Papillas</a></li>
+                        <li><a class="dropdown-item" href="#">Polvos</a></li>
+                        <li><a class="dropdown-item" href="#">Aceites</a></li>
+                    </ul>
+                    <button class="btn btn-search ms-20">Lácteos</button>
+                    <button class="btn btn-search ms-20">Botanas</button>
+                    <button class="btn btn-search ms-20">Dulcería</button>
+                    <button class="btn btn-search ms-20">Harinas</button>
+                    <button class="btn btn-search ms-20">Frutas</button>
+                    <button class="btn btn-search">Bebidas</button>
+                </div>
+
+                <!-- productos -->
+                <div class="row pt-40">
+                    <div class="col-12 col-sm-6 col-sm-6 col-md-4 col-lg-3 m-20">
+                        <div class="card back-card">
+                            <img src="./images/car-market-white.jpg" class="card-img-top" alt="...">
+                            <div class="card-body" style="padding: 0.4rem 0.6rem 0rem 0.6rem">
+                                <p class="head-card">Nombre del producto</p>
+                                <p class="price-card" style="float: left;">$199.00</p>
+                                <p class="category-card" style="float: right;">Categoria</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-sm-6 col-md-4 col-lg-3 m-20">
+                        <div class="card back-card">
+                            <img src="./images/car-market-white.jpg" class="card-img-top" alt="...">
+                            <div class="card-body" style="padding: 0.4rem 0.6rem 0rem 0.6rem">
+                                <p class="head-card">Nombre del producto</p>
+                                <p class="price-card" style="float: left;">$199.00</p>
+                                <p class="category-card" style="float: right;">Categoria</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-sm-6 col-md-4 col-lg-3 m-20">
+                        <div class="card back-card">
+                            <img src="./images/car-market-white.jpg" class="card-img-top" alt="...">
+                            <div class="card-body" style="padding: 0.4rem 0.6rem 0rem 0.6rem">
+                                <p class="head-card">Nombre del producto</p>
+                                <p class="price-card" style="float: left;">$199.00</p>
+                                <p class="category-card" style="float: right;">Categoria</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-sm-6 col-md-4 col-lg-3 m-20 ">
+                        <div class="card back-card">
+                            <img src="./images/car-market-white.jpg" class="card-img-top" alt="...">
+                            <div class="card-body" style="padding: 0.4rem 0.6rem 0rem 0.6rem">
+                                <p class="head-card">Nombre del producto</p>
+                                <p class="price-card" style="float: left;">$199.00</p>
+                                <p class="category-card" style="float: right;">Categoria</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-sm-6 col-md-4 col-lg-3 m-20">
+                        <div class="card back-card">
+                            <img src="./images/car-market-white.jpg" class="card-img-top" alt="...">
+                            <div class="card-body" style="padding: 0.4rem 0.6rem 0rem 0.6rem">
+                                <p class="head-card">Nombre del producto</p>
+                                <p class="price-card" style="float: left;">$199.00</p>
+                                <p class="category-card" style="float: right;">Categoria</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-sm-6 col-md-4 col-lg-3 m-20">
+                        <div class="card back-card">
+                            <img src="./images/car-market-white.jpg" class="card-img-top" alt="...">
+                            <div class="card-body" style="padding: 0.4rem 0.6rem 0rem 0.6rem">
+                                <p class="head-card">Nombre del producto</p>
+                                <p class="price-card" style="float: left;">$199.00</p>
+                                <p class="category-card" style="float: right;">Categoria</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-sm-6 col-md-4 col-lg-3 m-20">
+                        <div class="card back-card">
+                            <img src="./images/car-market-white.jpg" class="card-img-top" alt="...">
+                            <div class="card-body" style="padding: 0.4rem 0.6rem 0rem 0.6rem">
+                                <p class="head-card">Nombre del producto</p>
+                                <p class="price-card" style="float: left;">$199.00</p>
+                                <p class="category-card" style="float: right;">Categoria</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-sm-6 col-md-4 col-lg-3 m-20">
+                        <div class="card back-card">
+                            <img src="./images/car-market-white.jpg" class="card-img-top" alt="...">
+                            <div class="card-body" style="padding: 0.4rem 0.6rem 0rem 0.6rem">
+                                <p class="head-card">Nombre del producto</p>
+                                <p class="price-card" style="float: left;">$199.00</p>
+                                <p class="category-card" style="float: right;">Categoria</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-sm-6 col-md-4 col-lg-3 m-20">
+                        <div class="card back-card">
+                            <img src="./images/car-market-white.jpg" class="card-img-top" alt="...">
+                            <div class="card-body" style="padding: 0.4rem 0.6rem 0rem 0.6rem">
+                                <p class="head-card">Nombre del producto</p>
+                                <p class="price-card" style="float: left;">$199.00</p>
+                                <p class="category-card" style="float: right;">Categoria</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-sm-6 col-md-4 col-lg-3 m-20">
+                        <div class="card back-card">
+                            <img src="./images/car-market-white.jpg" class="card-img-top" alt="...">
+                            <div class="card-body" style="padding: 0.4rem 0.6rem 0rem 0.6rem">
+                                <p class="head-card">Nombre del producto</p>
+                                <p class="price-card" style="float: left;">$199.00</p>
+                                <p class="category-card" style="float: right;">Categoria</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-sm-6 col-md-4 col-lg-3 m-20">
+                        <div class="card back-card">
+                            <img src="./images/car-market-white.jpg" class="card-img-top" alt="...">
+                            <div class="card-body" style="padding: 0.4rem 0.6rem 0rem 0.6rem">
+                                <p class="head-card">Nombre del producto</p>
+                                <p class="price-card" style="float: left;">$199.00</p>
+                                <p class="category-card" style="float: right;">Categoria</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-sm-6 col-md-4 col-lg-3 m-20">
+                        <div class="card back-card">
+                            <img src="./images/car-market-white.jpg" class="card-img-top" alt="...">
+                            <div class="card-body" style="padding: 0.4rem 0.6rem 0rem 0.6rem">
+                                <p class="head-card">Nombre del producto</p>
+                                <p class="price-card" style="float: left;">$199.00</p>
+                                <p class="category-card" style="float: right;">Categoria</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-sm-6 col-md-4 col-lg-3 m-20">
+                        <div class="card back-card">
+                            <img src="./images/car-market-white.jpg" class="card-img-top" alt="...">
+                            <div class="card-body" style="padding: 0.4rem 0.6rem 0rem 0.6rem">
+                                <p class="head-card">Nombre del producto</p>
+                                <p class="price-card" style="float: left;">$199.00</p>
+                                <p class="category-card" style="float: right;">Categoria</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-sm-6 col-md-4 col-lg-3 m-20">
+                        <div class="card back-card">
+                            <img src="./images/car-market-white.jpg" class="card-img-top" alt="...">
+                            <div class="card-body" style="padding: 0.4rem 0.6rem 0rem 0.6rem">
+                                <p class="head-card">Nombre del producto</p>
+                                <p class="price-card" style="float: left;">$199.00</p>
+                                <p class="category-card" style="float: right;">Categoria</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-sm-6 col-md-4 col-lg-3 m-20">
+                        <div class="card back-card">
+                            <img src="./images/car-market-white.jpg" class="card-img-top" alt="...">
+                            <div class="card-body" style="padding: 0.4rem 0.6rem 0rem 0.6rem">
+                                <p class="head-card">Nombre del producto</p>
+                                <p class="price-card" style="float: left;">$199.00</p>
+                                <p class="category-card" style="float: right;">Categoria</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-sm-6 col-md-4 col-lg-3 m-20">
+                        <div class="card back-card">
+                            <img src="./images/car-market-white.jpg" class="card-img-top" alt="...">
+                            <div class="card-body" style="padding: 0.4rem 0.6rem 0rem 0.6rem">
+                                <p class="head-card">Nombre del producto</p>
+                                <p class="price-card" style="float: left;">$199.00</p>
+                                <p class="category-card" style="float: right;">Categoria</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 background-2 d-none d-lg-block">
+                <!-- Codigo para la seccion de precios y compras -->
+                <div class="row">
+                    <div class="d-flex justify-content-end">
+                        <p class="text-date">21 de mayo de 2023 12:23</p>
+                    </div>
+                </div>
+                <input type="text" class="form-control mt-2 input-price" placeholder="Cliente" style="">
+                <input type="text" class="form-control mt-3 input-price" placeholder="Vendedor">
+
+                <hr class="mt-20">
+                <table class="table table-borderless">
+                    <thead>
+                        <tr>
+                            <th class="th-price" scope="col" colspan="2">Producto</th>
+                            <th class="th-price" scope="col" colspan="1">Cantidad</th>
+                            <th class="th-price" scope="col" colspan="2">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="2" class="text-wrap tb-price">Cereal zucaritas</td>
+                            <td colspan="1" class="text-wrap tb-price">2</td>
+                            <td colspan="2" class="text-wrap tb-price">$ 70.00</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="text-wrap tb-price">Manzanas</td>
+                            <td colspan="1" class="text-wrap tb-price">29</td>
+                            <td colspan="2" class="text-wrap tb-price">$ 242.87</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="text-wrap tb-price">Mesa de trabajo</td>
+                            <td colspan="1" class="text-wrap tb-price">1</td>
+                            <td colspan="2" class="text-wrap tb-price">$ 123.45</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="text-wrap tb-price">Libreta Norma</td>
+                            <td colspan="1" class="text-wrap tb-price">6</td>
+                            <td colspan="2" class="text-wrap tb-price">$ 824.23</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="text-wrap tb-price">Cacahuates</td>
+                            <td colspan="1" class="text-wrap tb-price">1</td>
+                            <td colspan="2" class="text-wrap tb-price">$ 13.01</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="text-wrap tb-price">Alimento para perro</td>
+                            <td colspan="1" class="text-wrap tb-price">2</td>
+                            <td colspan="2" class="text-wrap tb-price">$ 864.19</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="text-wrap tb-price">Alimento para gato</td>
+                            <td colspan="1" class="text-wrap tb-price">3</td>
+                            <td colspan="2" class="text-wrap tb-price">$ 832.11</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="text-wrap tb-price">Coca cola</td>
+                            <td colspan="1" class="text-wrap tb-price">8</td>
+                            <td colspan="2" class="text-wrap tb-price">$ 854.44</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="text-wrap tb-price">Atun</td>
+                            <td colspan="1" class="text-wrap tb-price">17</td>
+                            <td colspan="2" class="text-wrap tb-price">$ 170.33</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ul class="leaders mt-5">
+                    <li>
+                        <span>Subtotal </span>
+                        <span>$ 3,597,63</span>
+                    </li>
+                    <li>
+                        <span>IVA (16%) </span>
+                        <span>$ 575.62</span>
+                    </li>
+                    <li>
+                        <span>Descuento </span>
+                        <span>$ 0.00</span>
+                    </li>
+                    <li>
+                        <span>Total a pagar </span>
+                        <span>$ 4,173.25</span>
+                    </li>
+                </ul>
+                <hr class="mt-4">
+                <input type="text" class="form-control input-price mt-4" placeholder="Cupón de descuento"
+                    style="text-align: center;">
+                <button class="btn btn-pay">PAGAR</button>
+            </div>
+            <div style="position: fixed; bottom: 0;" class="d-lg-none">
+                <div class="position-absolute bottom-0 end-0">
+                    <button class="btn btn-shop"
+                        type="button" data-bs-toggle="offcanvas" data-bs-target="#canvasPayment"
+                        aria-controls="canvasPayment">
+                        <span class="material-icons" style="font-size: 3rem;">shopping_cart</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="offcanvas offcanvas-start background-2" tabindex="-1" id="canvasPayment"
+                aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title text-light" id="offcanvasExampleLabel">Carrito de compras</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <!-- Codigo para la seccion de precios y compras -->
+                    <div class="row">
+                        <div class="d-flex justify-content-end">
+                            <p class="text-date">21 de mayo de 2023 12:23</p>
+                        </div>
+                    </div>
+                    <input type="text" class="form-control mt-2 input-price" placeholder="Cliente">
+                    <input type="text" class="form-control mt-3 input-price" placeholder="Vendedor">
+
+                    <hr class="mt-20">
+                    <table class="table table-borderless">
+                        <thead>
+                            <tr>
+                                <th class="th-price" scope="col" colspan="2">Producto</th>
+                                <th class="th-price" scope="col" colspan="1">Cantidad</th>
+                                <th class="th-price" scope="col" colspan="2">Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="2" class="text-wrap tb-price">Cereal zucaritas</td>
+                                <td colspan="1" class="text-wrap tb-price">2</td>
+                                <td colspan="2" class="text-wrap tb-price">$ 70.00</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="text-wrap tb-price">Manzanas</td>
+                                <td colspan="1" class="text-wrap tb-price">29</td>
+                                <td colspan="2" class="text-wrap tb-price">$ 242.87</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="text-wrap tb-price">Mesa de trabajo</td>
+                                <td colspan="1" class="text-wrap tb-price">1</td>
+                                <td colspan="2" class="text-wrap tb-price">$ 123.45</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="text-wrap tb-price">Libreta Norma</td>
+                                <td colspan="1" class="text-wrap tb-price">6</td>
+                                <td colspan="2" class="text-wrap tb-price">$ 824.23</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="text-wrap tb-price">Cacahuates</td>
+                                <td colspan="1" class="text-wrap tb-price">1</td>
+                                <td colspan="2" class="text-wrap tb-price">$ 13.01</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="text-wrap tb-price">Alimento para perro</td>
+                                <td colspan="1" class="text-wrap tb-price">2</td>
+                                <td colspan="2" class="text-wrap tb-price">$ 864.19</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="text-wrap tb-price">Alimento para gato</td>
+                                <td colspan="1" class="text-wrap tb-price">3</td>
+                                <td colspan="2" class="text-wrap tb-price">$ 832.11</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="text-wrap tb-price">Coca cola</td>
+                                <td colspan="1" class="text-wrap tb-price">8</td>
+                                <td colspan="2" class="text-wrap tb-price">$ 854.44</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="text-wrap tb-price">Atun</td>
+                                <td colspan="1" class="text-wrap tb-price">17</td>
+                                <td colspan="2" class="text-wrap tb-price">$ 170.33</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <ul class="leaders mt-5">
+                        <li>
+                            <span>Subtotal </span>
+                            <span>$ 3,597,63</span>
+                        </li>
+                        <li>
+                            <span>IVA (16%) </span>
+                            <span>$ 575.62</span>
+                        </li>
+                        <li>
+                            <span>Descuento </span>
+                            <span>$ 0.00</span>
+                        </li>
+                        <li>
+                            <span>Total a pagar </span>
+                            <span>$ 4,173.25</span>
+                        </li>
+                    </ul>
+                    <hr class="mt-4">
+                    <input type="text" class="form-control input-price mt-4" placeholder="Cupón de descuento"
+                        style="text-align: center;">
+                    <button class="btn btn-pay">PAGAR</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
